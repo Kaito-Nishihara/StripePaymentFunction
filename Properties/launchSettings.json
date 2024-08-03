@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "StripePaymentFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7268"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 30306,
+      "useSSL": false
+    }
+  }
+}
